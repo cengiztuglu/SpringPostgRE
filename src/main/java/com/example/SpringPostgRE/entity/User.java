@@ -1,11 +1,6 @@
 package com.example.SpringPostgRE.entity;
 import jakarta.persistence.*;
 import lombok.*;
-<<<<<<< HEAD
-import org.hibernate.annotations.CacheConcurrencyStrategy;
-
-=======
->>>>>>> origin/master
 import java.util.List;
 @Entity
 @Table(name = "users")
@@ -14,10 +9,6 @@ import java.util.List;
 @EqualsAndHashCode(of={"id"})
 @ToString
 @Data
-<<<<<<< HEAD
-@org.hibernate.annotations.Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
-=======
->>>>>>> origin/master
 public class User {
     @Id
     @SequenceGenerator(name = "seq_kisi",allocationSize = 1)

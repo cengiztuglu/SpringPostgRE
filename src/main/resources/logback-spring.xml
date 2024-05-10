@@ -15,11 +15,8 @@
             <charset>utf8</charset>
         </encoder>
     </appender>
-<<<<<<< HEAD
-    <logger name="com.example.SpringPostgRE.controller" level="DEBUG">
-=======
+
     <logger name="com.example.SpringPostgRE.controller" level="INFO">
->>>>>>> origin/master
         <appender-ref ref="console"/>
     </logger>
 

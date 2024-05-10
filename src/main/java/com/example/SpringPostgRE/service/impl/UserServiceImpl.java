@@ -7,11 +7,7 @@ import com.example.SpringPostgRE.repository.AdressRepo;
 import com.example.SpringPostgRE.repository.UserRepo;
 import com.example.SpringPostgRE.service.UserService;
 import lombok.RequiredArgsConstructor;
-<<<<<<< HEAD
 
-=======
-import lombok.extern.log4j.Log4j;
->>>>>>> origin/master
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;

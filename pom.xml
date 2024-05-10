@@ -41,7 +41,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<<<<<<< HEAD
 		<dependency>
 			<groupId>com.hazelcast</groupId>
 			<artifactId>hazelcast</artifactId>
@@ -51,10 +50,8 @@
 			<artifactId>hazelcast-spring</artifactId>
 		</dependency>
 	</dependencies>
-=======
-	</dependencies>
 
->>>>>>> origin/master
+
 	<build>
 		<plugins>
 			<plugin>
