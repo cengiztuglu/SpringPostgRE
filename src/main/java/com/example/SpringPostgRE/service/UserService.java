@@ -9,6 +9,10 @@ import java.util.List;
 public interface UserService {
     UserDto save(UserDto userDto);
     void delete(Long id);
+<<<<<<< HEAD
     List<UserDto> getAll();
+=======
+   List<UserDto> getAll();
+>>>>>>> origin/master
     Page<UserDto> getAll(Pageable pageable);
 }
